@@ -46,7 +46,7 @@ cacheSolve <- function(x, ...) {
 ## Example
 y <- matrix(rpois(12,2), nrow = 4, ncol = 4)
 iy <- makeCacheMatrix(y)
-iY$get()
+iy$get()
 cacheSolve(iy)
 cacheSolve(iy)
 inverseY <- cacheSolve(iy)
